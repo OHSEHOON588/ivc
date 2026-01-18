@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.app',
   viewport: {
-    width: 'device-width',
+    width: 1920, // 고정 너비로 PC 화면처럼 보이게 강제
     initialScale: 1,
-    maximumScale: 5,
+    userScalable: true,
   },
   icons: {
     icon: [
